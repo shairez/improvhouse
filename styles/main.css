@@ -7628,10 +7628,33 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 4, ../../src/styles/main.scss */
+/* line 5, ../../src/styles/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+@font-face {
+  font-family: 'nootregular';
+  src: url("../assets/fonts/noot-aj.eot");
+  src: url("../assets/fonts/noot-aj.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/noot-aj.woff") format("woff"), url("../assets/fonts/noot-aj.ttf") format("truetype"), url("../assets/fonts/noot-aj.svg#nootregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, ../../src/styles/main.scss */
+.logo-header {
+  background-image: url("../assets/images/crowd.jpg");
+  height: 400px;
+  text-align: right;
+}
+
+/* line 32, ../../src/styles/main.scss */
+.logo {
+  font-family: "nootregular";
+  color: white;
+  font-size: 60px;
+  text-shadow: black 4px 4px 0;
 }

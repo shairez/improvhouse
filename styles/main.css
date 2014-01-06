@@ -7647,11 +7647,13 @@ td.visible-print {
 /* line 25, ../../src/styles/main.scss */
 .logo-header {
   background-image: url("../assets/images/crowd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
   text-align: right;
 }
 
-/* line 32, ../../src/styles/main.scss */
+/* line 34, ../../src/styles/main.scss */
 .logo {
   font-family: "nootregular";
   color: white;

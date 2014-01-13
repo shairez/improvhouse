@@ -7628,7 +7628,57 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 5, ../../src/styles/main.scss */
+/* line 1, ../../src/styles/_concat-styles.scss */
+.section {
+  padding: 40px;
+}
+
+/* line 5, ../../src/styles/_concat-styles.scss */
+.mailing-list {
+  background: black;
+}
+
+/* line 10, ../../src/styles/_concat-styles.scss */
+.tixwise {
+  background: white;
+}
+
+/* line 16, ../../src/styles/_concat-styles.scss */
+.youtube {
+  background: black;
+}
+
+/* line 23, ../../src/styles/_concat-styles.scss */
+.mailing-list .form-group {
+  position: relative;
+}
+/* line 27, ../../src/styles/_concat-styles.scss */
+.mailing-list #mc_embed_signup {
+  padding-bottom: 0;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+/* line 33, ../../src/styles/_concat-styles.scss */
+.mailing-list #mc_embed_signup .indicates-required {
+  text-align: right;
+  font-size: 11px;
+  margin-right: 0;
+}
+/* line 39, ../../src/styles/_concat-styles.scss */
+.mailing-list #mc_embed_signup .field-asterisk {
+  left: 10px;
+  right: auto;
+  position: absolute;
+  top: 25px;
+  color: #c60;
+  font-size: 200%;
+}
+/* line 48, ../../src/styles/_concat-styles.scss */
+.mailing-list .disclaimer {
+  font-size: 12px;
+}
+
+/* line 6, ../../src/styles/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7644,7 +7694,7 @@ td.visible-print {
   font-style: normal;
 }
 
-/* line 25, ../../src/styles/main.scss */
+/* line 22, ../../src/styles/main.scss */
 .logo-header {
   background-image: url("../assets/images/crowd.jpg");
   background-repeat: no-repeat;
@@ -7654,7 +7704,7 @@ td.visible-print {
   text-align: right;
 }
 
-/* line 35, ../../src/styles/main.scss */
+/* line 31, ../../src/styles/main.scss */
 .logo {
   font-family: "nootregular";
   color: white;
@@ -7662,9 +7712,25 @@ td.visible-print {
   text-shadow: black 4px 4px 0;
 }
 
-/* line 43, ../../src/styles/main.scss */
+/* line 39, ../../src/styles/main.scss */
 .tagline {
   color: white;
   margin: 0;
   text-shadow: black 3px 3px 0;
+}
+
+/* line 45, ../../src/styles/main.scss */
+.main-description {
+  background: #000000;
+  padding: 30px;
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+/* line 53, ../../src/styles/main.scss */
+.footer {
+  padding: 50px 0 20px 0;
+  background: white;
+  color: black;
 }

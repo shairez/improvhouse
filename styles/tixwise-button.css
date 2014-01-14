@@ -1,0 +1,19 @@
+/* Leave the selectors as is. Change the styles as you like */
+/* line 3, ../../src/styles/tixwise-button.scss */
+.custom #order_menu {
+  float: right;
+  padding-bottom: 8px;
+}
+
+/* line 8, ../../src/styles/tixwise-button.scss */
+.custom #order_button {
+  float: left;
+  width: 240px;
+  height: 38px;
+  background: url(../images/event/order.gif) no-repeat left;
+}
+
+/* line 15, ../../src/styles/tixwise-button.scss */
+.custom #order_button:hover {
+  background: url(../images/event/order_hover.gif) no-repeat left;
+}

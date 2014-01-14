@@ -391,12 +391,12 @@ textarea {
 
 /* line 43, ../../src/bower_components/sass-bootstrap/lib/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #d9293a;
   text-decoration: none;
 }
 /* line 48, ../../src/bower_components/sass-bootstrap/lib/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #9a1b28;
   text-decoration: underline;
 }
 /* line 53, ../../src/bower_components/sass-bootstrap/lib/_scaffolding.scss */
@@ -499,11 +499,11 @@ cite {
 
 /* line 38, ../../src/bower_components/sass-bootstrap/lib/_type.scss */
 .text-primary {
-  color: #428bca;
+  color: #d9293a;
 }
 /* line 40, ../../src/bower_components/sass-bootstrap/lib/_type.scss */
 .text-primary:hover {
-  color: #3071a9;
+  color: #b01f2d;
 }
 
 /* line 44, ../../src/bower_components/sass-bootstrap/lib/_type.scss */
@@ -2703,20 +2703,20 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 58, ../../src/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-primary {
   color: white;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #d9293a;
+  border-color: #c52333;
 }
 /* line 470, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   color: white;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #b8212f;
+  border-color: #911a25;
 }
 /* line 475, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .open .btn-primary.dropdown-toggle {
   color: white;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #b8212f;
+  border-color: #911a25;
 }
 /* line 481, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary:active, .btn-primary.active {
@@ -2728,8 +2728,8 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 }
 /* line 494, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #d9293a;
+  border-color: #c52333;
 }
 
 /* line 62, ../../src/bower_components/sass-bootstrap/lib/_buttons.scss */
@@ -2862,7 +2862,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 
 /* line 83, ../../src/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #d9293a;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2879,7 +2879,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 }
 /* line 103, ../../src/bower_components/sass-bootstrap/lib/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #9a1b28;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4063,7 +4063,7 @@ input[type="button"].btn-block {
   color: white;
   text-decoration: none;
   outline: 0;
-  background-color: #428bca;
+  background-color: #d9293a;
 }
 
 /* line 103, ../../src/bower_components/sass-bootstrap/lib/_dropdowns.scss */
@@ -4570,12 +4570,12 @@ input[type="button"].btn-block {
 /* line 48, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #d9293a;
 }
 /* line 52, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .open > a .caret, .nav .open > a:hover .caret, .nav .open > a:focus .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #9a1b28;
+  border-bottom-color: #9a1b28;
 }
 /* line 64, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .nav-divider {
@@ -4633,7 +4633,7 @@ input[type="button"].btn-block {
 /* line 138, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: white;
-  background-color: #428bca;
+  background-color: #d9293a;
 }
 /* line 142, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav-pills > li.active > a .caret, .nav-pills > li.active > a:hover .caret, .nav-pills > li.active > a:focus .caret {
@@ -4725,14 +4725,14 @@ input[type="button"].btn-block {
 
 /* line 247, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav .caret {
-  border-top-color: #428bca;
-  border-bottom-color: #428bca;
+  border-top-color: #d9293a;
+  border-bottom-color: #d9293a;
 }
 
 /* line 251, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
 .nav a:hover .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #9a1b28;
+  border-bottom-color: #9a1b28;
 }
 
 /* line 257, ../../src/bower_components/sass-bootstrap/lib/_navs.scss */
@@ -4745,7 +4745,7 @@ input[type="button"].btn-block {
 /* line 11, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 60px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4901,7 +4901,7 @@ input[type="button"].btn-block {
 /* line 152, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 20px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4922,8 +4922,8 @@ input[type="button"].btn-block {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -4948,7 +4948,7 @@ input[type="button"].btn-block {
 
 /* line 208, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 10px -15px;
 }
 /* line 211, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-nav > li > a {
@@ -4993,8 +4993,8 @@ input[type="button"].btn-block {
   }
   /* line 248, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -5018,8 +5018,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 @media (max-width: 767px) {
   /* line 291, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
@@ -5063,15 +5063,15 @@ input[type="button"].btn-block {
 
 /* line 337, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
 /* line 346, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-text {
   float: left;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   /* line 346, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
@@ -5083,16 +5083,16 @@ input[type="button"].btn-block {
 
 /* line 360, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #d9293a;
+  border-color: #bf2231;
 }
 /* line 364, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: white;
 }
 /* line 367, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #e6e6e6;
   background-color: transparent;
 }
 /* line 373, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
@@ -5101,17 +5101,17 @@ input[type="button"].btn-block {
 }
 /* line 378, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: white;
 }
 /* line 382, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
-  background-color: transparent;
+  color: #eeeeee;
+  background-color: #bf2231;
 }
 /* line 390, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  background-color: #bf2231;
 }
 /* line 398, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5133,17 +5133,17 @@ input[type="button"].btn-block {
 /* line 417, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #bf2231;
 }
 /* line 425, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #333333;
-  border-bottom-color: #333333;
+  border-top-color: #eeeeee;
+  border-bottom-color: #eeeeee;
 }
 /* line 434, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
+  background-color: #bf2231;
   color: #555555;
 }
 /* line 437, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
@@ -5153,23 +5153,23 @@ input[type="button"].btn-block {
 }
 /* line 443, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-nav > .dropdown > a .caret {
-  border-top-color: #777777;
-  border-bottom-color: #777777;
+  border-top-color: white;
+  border-bottom-color: white;
 }
 @media (max-width: 767px) {
   /* line 452, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: white;
   }
   /* line 455, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
-    background-color: transparent;
+    color: #eeeeee;
+    background-color: #bf2231;
   }
   /* line 463, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
-    background-color: #e7e7e7;
+    background-color: #bf2231;
   }
   /* line 471, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5179,11 +5179,11 @@ input[type="button"].btn-block {
 }
 /* line 485, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-link {
-  color: #777777;
+  color: white;
 }
 /* line 487, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
 .navbar-default .navbar-link:hover {
-  color: #333333;
+  color: #eeeeee;
 }
 
 /* line 496, ../../src/bower_components/sass-bootstrap/lib/_navbar.scss */
@@ -5366,8 +5366,8 @@ input[type="button"].btn-block {
 .pagination > .active > span:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #d9293a;
+  border-color: #d9293a;
   cursor: default;
 }
 /* line 65, ../../src/bower_components/sass-bootstrap/lib/_pagination.scss */
@@ -5513,11 +5513,11 @@ input[type="button"].btn-block {
 
 /* line 40, ../../src/bower_components/sass-bootstrap/lib/_labels.scss */
 .label-primary {
-  background-color: #428bca;
+  background-color: #d9293a;
 }
 /* line 540, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #3071a9;
+  background-color: #b01f2d;
 }
 
 /* line 44, ../../src/bower_components/sass-bootstrap/lib/_labels.scss */
@@ -5592,7 +5592,7 @@ a.badge:hover, a.badge:focus {
 /* line 45, ../../src/bower_components/sass-bootstrap/lib/_badges.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #d9293a;
   background-color: white;
 }
 
@@ -5664,7 +5664,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #d9293a;
 }
 
 /* line 9, ../../src/bower_components/sass-bootstrap/lib/_alerts.scss */
@@ -5833,7 +5833,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: white;
   text-align: center;
-  background-color: #428bca;
+  background-color: #d9293a;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5998,8 +5998,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
   z-index: 2;
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #d9293a;
+  border-color: #d9293a;
 }
 /* line 69, ../../src/bower_components/sass-bootstrap/lib/_list-group.scss */
 a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hover .list-group-item-heading, a.list-group-item.active:focus .list-group-item-heading {
@@ -6007,7 +6007,7 @@ a.list-group-item.active .list-group-item-heading, a.list-group-item.active:hove
 }
 /* line 72, ../../src/bower_components/sass-bootstrap/lib/_list-group.scss */
 a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+  color: #f8d6d9;
 }
 
 /* line 81, ../../src/bower_components/sass-bootstrap/lib/_list-group.scss */
@@ -6215,17 +6215,17 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 
 /* line 158, ../../src/bower_components/sass-bootstrap/lib/_panels.scss */
 .panel-primary {
-  border-color: #428bca;
+  border-color: #d9293a;
 }
 /* line 396, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading {
   color: white;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #d9293a;
+  border-color: #d9293a;
 }
 /* line 401, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #428bca;
+  border-top-color: #d9293a;
 }
 /* line 404, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-heading > .dropdown .caret {
@@ -6233,7 +6233,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 }
 /* line 409, ../../src/bower_components/sass-bootstrap/lib/_mixins.scss */
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #428bca;
+  border-bottom-color: #d9293a;
 }
 
 /* line 161, ../../src/bower_components/sass-bootstrap/lib/_panels.scss */
@@ -7634,37 +7634,60 @@ td.visible-print {
 }
 
 /* line 5, ../../src/styles/_concat-styles.scss */
-.mailing-list {
-  background: black;
+.improv-navbar {
+  background: #d9293a;
+}
+/* line 8, ../../src/styles/_concat-styles.scss */
+.improv-navbar .navbar {
+  border: none;
+  margin-bottom: 0;
+}
+/* line 12, ../../src/styles/_concat-styles.scss */
+.improv-navbar .navbar .navbar-nav {
+  font-size: 24px;
+}
+/* line 15, ../../src/styles/_concat-styles.scss */
+.improv-navbar .navbar li a {
+  color: white;
 }
 
-/* line 10, ../../src/styles/_concat-styles.scss */
+/* line 29, ../../src/styles/_concat-styles.scss */
 .tixwise {
   background: white;
 }
 
-/* line 16, ../../src/styles/_concat-styles.scss */
+/* line 36, ../../src/styles/_concat-styles.scss */
 .youtube {
   background: black;
 }
 
-/* line 23, ../../src/styles/_concat-styles.scss */
+/* line 44, ../../src/styles/_concat-styles.scss */
+.mailing-list {
+  background-image: url("../assets/images/crowd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+
+/* line 55, ../../src/styles/_concat-styles.scss */
 .mailing-list .form-group {
   position: relative;
 }
-/* line 27, ../../src/styles/_concat-styles.scss */
+/* line 59, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup {
+  -webkit-box-shadow: black 3px 3px 30px 5px;
+  box-shadow: black 3px 3px 30px 5px;
   padding-bottom: 0;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
-/* line 33, ../../src/styles/_concat-styles.scss */
+/* line 66, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup .indicates-required {
   text-align: right;
   font-size: 11px;
   margin-right: 0;
 }
-/* line 39, ../../src/styles/_concat-styles.scss */
+/* line 72, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup .field-asterisk {
   left: 10px;
   right: auto;
@@ -7673,12 +7696,12 @@ td.visible-print {
   color: #c60;
   font-size: 200%;
 }
-/* line 48, ../../src/styles/_concat-styles.scss */
+/* line 81, ../../src/styles/_concat-styles.scss */
 .mailing-list .disclaimer {
   font-size: 12px;
 }
 
-/* line 6, ../../src/styles/main.scss */
+/* line 9, ../../src/styles/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7694,17 +7717,14 @@ td.visible-print {
   font-style: normal;
 }
 
-/* line 22, ../../src/styles/main.scss */
+/* line 25, ../../src/styles/main.scss */
 .logo-header {
-  background-image: url("../assets/images/crowd.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top left;
-  height: 450px;
+  background: black;
   text-align: right;
+  padding: 50px;
 }
 
-/* line 31, ../../src/styles/main.scss */
+/* line 32, ../../src/styles/main.scss */
 .logo {
   font-family: "nootregular";
   color: white;
@@ -7712,14 +7732,14 @@ td.visible-print {
   text-shadow: black 4px 4px 0;
 }
 
-/* line 39, ../../src/styles/main.scss */
+/* line 40, ../../src/styles/main.scss */
 .tagline {
   color: white;
   margin: 0;
   text-shadow: black 3px 3px 0;
 }
 
-/* line 45, ../../src/styles/main.scss */
+/* line 46, ../../src/styles/main.scss */
 .main-description {
   background: #000000;
   padding: 30px;
@@ -7728,9 +7748,9 @@ td.visible-print {
   margin-top: 40px;
 }
 
-/* line 53, ../../src/styles/main.scss */
+/* line 54, ../../src/styles/main.scss */
 .footer {
   padding: 50px 0 20px 0;
-  background: white;
-  color: black;
+  background: #d9293a;
+  color: white;
 }

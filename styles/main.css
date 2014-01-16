@@ -7651,17 +7651,38 @@ td.visible-print {
   color: white;
 }
 
-/* line 29, ../../src/styles/_concat-styles.scss */
-.tixwise {
-  background: white;
-}
-
-/* line 36, ../../src/styles/_concat-styles.scss */
+/* line 30, ../../src/styles/_concat-styles.scss */
 .youtube {
   background: black;
 }
 
+/* line 36, ../../src/styles/_concat-styles.scss */
+.logo-header {
+  background: black;
+  text-align: center;
+}
+/* line 39, ../../src/styles/_concat-styles.scss */
+.logo-header .logo-container {
+  padding: 50px;
+}
+
 /* line 44, ../../src/styles/_concat-styles.scss */
+.logo {
+  font-family: "nootregular";
+  color: white;
+  font-size: 60px;
+  text-shadow: black 4px 4px 0;
+}
+
+/* line 52, ../../src/styles/_concat-styles.scss */
+.tagline {
+  color: white;
+  margin: 0;
+  margin-top: 20px;
+  text-shadow: black 3px 3px 0;
+}
+
+/* line 60, ../../src/styles/_concat-styles.scss */
 .mailing-list {
   background-image: url("../assets/images/crowd.jpg");
   background-repeat: no-repeat;
@@ -7669,11 +7690,16 @@ td.visible-print {
   background-position: top left;
 }
 
-/* line 55, ../../src/styles/_concat-styles.scss */
+/* line 71, ../../src/styles/_concat-styles.scss */
 .mailing-list .form-group {
   position: relative;
 }
-/* line 59, ../../src/styles/_concat-styles.scss */
+/* line 74, ../../src/styles/_concat-styles.scss */
+.mailing-list .form-group label {
+  width: 100%;
+  text-align: right;
+}
+/* line 81, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup {
   -webkit-box-shadow: black 3px 3px 30px 5px;
   box-shadow: black 3px 3px 30px 5px;
@@ -7681,13 +7707,13 @@ td.visible-print {
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
-/* line 66, ../../src/styles/_concat-styles.scss */
+/* line 87, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup .indicates-required {
   text-align: right;
   font-size: 11px;
   margin-right: 0;
 }
-/* line 72, ../../src/styles/_concat-styles.scss */
+/* line 93, ../../src/styles/_concat-styles.scss */
 .mailing-list #mc_embed_signup .field-asterisk {
   left: 10px;
   right: auto;
@@ -7696,12 +7722,36 @@ td.visible-print {
   color: #c60;
   font-size: 200%;
 }
-/* line 81, ../../src/styles/_concat-styles.scss */
+/* line 102, ../../src/styles/_concat-styles.scss */
+.mailing-list #mc_embed_signup div.mce_inline_error {
+  text-align: right;
+  direction: ltr;
+}
+/* line 108, ../../src/styles/_concat-styles.scss */
 .mailing-list .disclaimer {
   font-size: 12px;
 }
 
+/* line 114, ../../src/styles/_concat-styles.scss */
+.tixwise {
+  background-image: url("../assets/images/cover.jpg");
+  background-size: cover;
+  background-position: top left;
+  text-align: right;
+}
+/* line 122, ../../src/styles/_concat-styles.scss */
+.tixwise .tixwise-iframe-wrapper {
+  background: white;
+  min-width: 620px;
+  text-align: center;
+}
+
 /* line 9, ../../src/styles/main.scss */
+body {
+  font-family: "verdana tahoma arial";
+}
+
+/* line 13, ../../src/styles/main.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7717,29 +7767,7 @@ td.visible-print {
   font-style: normal;
 }
 
-/* line 25, ../../src/styles/main.scss */
-.logo-header {
-  background: black;
-  text-align: right;
-  padding: 50px;
-}
-
-/* line 32, ../../src/styles/main.scss */
-.logo {
-  font-family: "nootregular";
-  color: white;
-  font-size: 60px;
-  text-shadow: black 4px 4px 0;
-}
-
-/* line 40, ../../src/styles/main.scss */
-.tagline {
-  color: white;
-  margin: 0;
-  text-shadow: black 3px 3px 0;
-}
-
-/* line 46, ../../src/styles/main.scss */
+/* line 30, ../../src/styles/main.scss */
 .main-description {
   background: #000000;
   padding: 30px;
@@ -7748,7 +7776,7 @@ td.visible-print {
   margin-top: 40px;
 }
 
-/* line 54, ../../src/styles/main.scss */
+/* line 38, ../../src/styles/main.scss */
 .footer {
   padding: 50px 0 20px 0;
   background: #d9293a;

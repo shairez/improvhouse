@@ -9,7 +9,7 @@
     <!-- endbuild -->
 
 </head>
-<body>
+<body ng-app="improvhouse">
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -385,7 +385,7 @@ function mce_success_cb(resp){
     </div>
 </div>
 
-<div id="tickets" class="tixwise section">
+<!--<div id="tickets" class="tixwise section">
     <div class="container">
 
         <div class="row text-right">
@@ -397,12 +397,16 @@ function mce_success_cb(resp){
                 <div class="tixwise-iframe-wrapper center-block">
                     <h2>הזמנת כרטיסים ל 21/3/14 - אימפרוליג - המחזור השישי</h2>
                     <div>
-                        <iframe src="https://www.tixwise.co.il/he/event/28047/e2c34a9fe129cf86567d347e2aa840d3538eac7a60437?widget%5Bwidget%5D=1&amp;widget%5Bb_theme%5D=red&amp;widget%5Breffering_url%5D=http%3A%2F%2Fwww.improvhouse.co.il&amp;widget%5Btarget%5D=top" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:600px; height:250px;"></iframe>
+                        <iframe src="https://www.tixwise.co.il/he/event/28047/e2c34a9fe129cf86567d347e2aa840d3538eac7a60437?widget%5Bwidget%5D=1&widget%5Bb_theme%5D=red&widget%5Breffering_url%5D=http%3A%2F%2Fwww.improvhouse.co.il&widget%5Btarget%5D=top"
+                            scrolling="no" frameborder="0" allowTransparency="true"
+                            style="border:none; overflow:hidden; width:600px; height:250px;"></iframe>
                     </div>
 
                     <h2>הזמנת כרטיסים ל 28/3/14 - שירלי והפחיות ולמה אלפקה!</h2>
                     <div> 
-                        <iframe src="https://www.tixwise.co.il/he/event/28048/1c954fe8cf721bbfe68c2bda75bf058bea0b4e7d60438?widget%5Bwidget%5D=1&amp;widget%5Bb_theme%5D=red&amp;widget%5Breffering_url%5D=http%3A%2F%2Fwww.improvhouse.co.il&amp;widget%5Btarget%5D=top" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden; width:600px; height:250px;"></iframe>
+                        <iframe src="https://www.tixwise.co.il/he/event/28048/1c954fe8cf721bbfe68c2bda75bf058bea0b4e7d60438?widget%5Bwidget%5D=1&widget%5Bb_theme%5D=red&widget%5Breffering_url%5D=http%3A%2F%2Fwww.improvhouse.co.il&widget%5Btarget%5D=top"
+                            scrolling="no" frameborder="0" allowTransparency="true"
+                            style="border:none; overflow:hidden; width:600px; height:250px;"></iframe>
                     </div>
 
                 </div>
@@ -413,7 +417,7 @@ function mce_success_cb(resp){
 
     </div>
 </div>
-
+-->
 
 
 
@@ -462,9 +466,12 @@ function mce_success_cb(resp){
 <footer class="footer text-center">כל הזכויות שמורות לבית האימפרוב</footer>
 
 
-<!-- build:js scripts/vendor.js -->
-<script src="bower_components/jquery/jquery.js"></script>
-<script src="bower_components/skrollr/src/skrollr.js"></script>
+<!-- build:js({.tmp,src}) scripts/vendor.js -->
+<!-- <script src="bower_components/jquery/jquery.js"></script> -->
+<!-- <script src="bower_components/skrollr/src/skrollr.js"></script> --> 
+<!-- <script src="bower_components/angular/angular.js"></script> -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>-->
+
 <!-- endbuild -->
 
 <!-- build:js({.tmp,src}) scripts/scripts.js -->
